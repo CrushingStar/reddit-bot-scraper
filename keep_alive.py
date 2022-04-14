@@ -1,6 +1,6 @@
 from flask import Flask
 from threading import Thread
-
+# needs a server host and something that can ping the website overnight
 app = Flask('')
 
 @app.route('/')
